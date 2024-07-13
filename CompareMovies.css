@@ -1,0 +1,139 @@
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    padding: 0.25rem;
+}
+
+/* Styling heading for the project */
+.heading {
+    height: 100px;
+    border-radius: 0.5rem;
+    margin-bottom: 2.5rem;
+    background-image: url('CompareMoviesImgs/pexels-chay-garcia-877205-2910028.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.heading h1 {
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    font-weight: 600;
+}
+
+/*end*/
+
+/* Styling header of the main content */
+.topic {
+    margin-bottom: 2rem;
+}
+
+.topic h2 {
+    text-align: center;
+}
+
+/*end*/
+
+/* Styling main content */
+section {
+    height: 1800px;
+    width: auto;
+    position: relative;
+}
+
+/* Styling of table inside main content */
+section>table {
+    width: 55%;
+    height: auto;
+    padding: 0.75rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid rgb(49, 48, 48);
+}
+
+section>table td,
+th {
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+section>table th:nth-child(2){
+    padding-right: 2rem;
+}
+section>table tr:nth-child(1) td:nth-child(2){
+    padding-right: 2rem;
+}
+
+section>table th form {
+    display: flex;
+    justify-content: center;
+}
+section>table th form:nth-child(n) button:nth-child(n){
+    margin-left: 0.75rem;
+}
+
+section>table th input {
+    border: 1px solid rgb(49, 48, 48);
+}
+
+section>table th button {
+    padding: 0.5rem;
+}
+
+/* Styling of all td elements inside tbody element */
+tbody>tr:nth-child(1)>td:nth-child(n) {
+    height: 15rem;
+    width: 15rem;
+}
+
+/*end*/
+
+#LeftImg,
+#RightImg {
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(49, 48, 48);
+}
+
+.compare td {
+    height: 1rem;
+    padding: 1rem;
+}
+
+tr:nth-child(n)>td:nth-child(n) {
+    text-align: center;
+}
+
+/* Styling for ColorContainers inside second-last row of table */
+.ColorContainer {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid rgb(49, 48, 48);
+    color: black;
+}
+
+/*end*/
+/*end*/
+/*end*/
+
+/*Addition class needed for ColorContainersSpans*/
+.FillWhiteColor {
+    background-color: white;
+}
+
+.FillGreenColor {
+    background-color: green;
+}
+
+.FillRedColor {
+    background-color: red;
+}
+
+/*end*/

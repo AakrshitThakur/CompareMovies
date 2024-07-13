@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompareMovies</title>
+
+    <!-- Google font stylesheets -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!---->
+
+    <!-- My only CSS -->
+    <link rel="stylesheet" href="CompareMovies.css">
+    <!---->
+
+</head>
+
+<body>
+
+    <!-- Header of the project -->
+    <div class="heading">
+        <h1>&#127909;CompareMovies</h1>
+    </div>
+    <!---->
+
+    <!-- Heading for the main content of the project -->
+    <div class="topic">
+        <h2>Compare any two movies to see which one is overall better</h2>
+    </div>
+    <!---->
+
+    <!-- Content of the project -->
+    <section>
+        <table>
+            <thead>
+
+                <!-- Forms containing search bar and button -->
+                <tr>
+                    <th>
+                        <form id="LeftForm">
+                            <input type="text" name="LeftInput"><button>Search</button>
+                        </form>
+                    </th>
+                    <th>
+                        <form id="RightForm">
+                            <input type="text" name="RightInput"><button>Search</button>
+                        </form>
+                    </th>
+                </tr>
+                <!---->
+
+            </thead>
+            <tbody>
+
+                <!-- Medium images for the movies/web-series/shows -->
+                <tr>
+                    <td>
+                        <img id="LeftImg" src="CompareMoviesImgs/Initial_Img.jpg" alt="">
+                    </td>
+                    <td>
+                        <img id="RightImg" src="CompareMoviesImgs/Initial_Img.jpg" alt="">
+                    </td>
+                </tr>
+                <!---->
+
+                <!-- Description or summary of the searched movies/web-series/shows -->
+                <tr class="compare">
+                    <td>
+                        <span>_</span>
+                    </td>
+                    <td>
+                        <span>_</span>
+                    </td>
+                </tr>
+                <!---->
+
+                <!-- Premiered dates of the movies/web-series/shows -->
+                <tr class="compare">
+                    <td>
+                        <span>_</span>
+                    </td>
+                    <td>
+                        <span>_</span>
+                    </td>
+                </tr>
+                <!---->
+
+                <!-- Genres of the movies/web-sereis/shows -->
+                <tr class="compare">
+                    <td>
+                        <span>_</span>
+                    </td>
+                    <td>
+                        <span>_</span>
+                    </td>
+                </tr>
+                <!---->
+
+                <!-- Languages of the movies/web-series/shows -->
+                <tr class="compare">
+                    <td>
+                        <span>_</span>
+                    </td>
+                    <td>
+                        <span>_</span>
+                    </td>
+                </tr>
+                <!---->
+
+                <!-- Average ratings of the movies/web-series/shows along with color containers for comparisons -->
+                <tr class="compare">
+                    <td>
+                        <span class="ColorContainer FillWhiteColor">?</span>
+                        <span>_</span>
+                    </td>
+                    <td>
+                        <span class="ColorContainer FillWhiteColor">?</span>
+                        <span>_</span>
+                    </td>
+                </tr>
+                <!---->
+
+                <!-- Finally compare the movies/web-series/shows average rating and display a message -->
+                <tr class="compare">
+                    <td colspan="2" id="DisplayResult">_</td>
+                </tr>
+                <!---->
+                
+            </tbody>
+        </table>
+    </section>
+    <!---->
+
+    <!-- Installing axios using unpkg CDN -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!---->
+
+    <!-- My only JS sheet -->
+    <script src="CompareMovies.js"></script>
+    <!---->
+</body>
+
+</html>
