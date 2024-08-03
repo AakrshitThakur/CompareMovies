@@ -85,7 +85,7 @@ function PrintOnScreen(ResponseObj, DoForLeftMovie) {
     else {
         if (LeftMovieAvgRating > RightMovieAvgRating) {
             spans[8].innerHTML = '&#x2713;';
-            spans[10].innerHTML = '&#x2717;'
+            spans[10].innerHTML = '&#x2717;';
             spans[8].classList.replace('FillWhiteColor', 'FillGreenColor');
             spans[8].classList.replace('FillRedColor', 'FillGreenColor');
             spans[10].classList.replace('FillWhiteColor', 'FillRedColor');
